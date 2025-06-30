@@ -1,0 +1,80 @@
+.landing-section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  gap:2rem;
+  margin-bottom: 20px;
+}
+
+.bg-shoe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.8; 
+}
+
+.landing-heading {
+  max-width: 50%;
+  z-index: 1; 
+}
+
+.landing-heading h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: black;
+}
+
+.landing-paragraph {
+  max-width: 40%;
+  z-index: 1; 
+}
+
+.landing-paragraph p {
+  font-size: 1.2rem;
+  color: black;
+  text-align: right;
+}
+
+
+@media (max-width: 768px) {
+  .landing-section {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 1rem;
+  }
+
+  .landing-heading,
+  .landing-paragraph {
+    max-width: 90%;
+    align-self: center;
+  }
+
+  .bg-shoe {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .landing-heading h1 {
+    font-size: 2.5rem;
+  }
+
+  .landing-paragraph p {
+    font-size: 1rem;
+    text-align: center;
+  }
+}

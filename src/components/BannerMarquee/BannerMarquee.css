@@ -1,0 +1,31 @@
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  background: #2d2d2d; 
+  color: rgb(255, 255, 255);
+  padding: 12px 0;             
+  font-weight: 500;             
+  font-size: 80px;              
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.marquee {
+  display: inline-block;
+  animation: scrollLeft 15s linear infinite;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-right: 2rem; 
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

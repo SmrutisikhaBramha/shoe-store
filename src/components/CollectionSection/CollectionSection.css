@@ -1,0 +1,70 @@
+.collection-container {
+  padding: 50px 80px;
+  background-color: #ffffff;
+}
+
+.collection-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.collection-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.view-all {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 0.95rem;
+}
+
+.collection-grid {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.collection-card {
+  position: relative;
+  width: 380px;
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.collection-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease;
+  border-radius: 20px;
+}
+
+.collection-card:hover img {
+  transform: scale(1.05);
+}
+
+.collection-card h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #222;
+  transition: color 0.3s ease;
+}
+
+.collection-card:hover h3 {
+  color: #6354b0; 
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}

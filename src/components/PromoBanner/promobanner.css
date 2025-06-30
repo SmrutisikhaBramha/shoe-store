@@ -1,0 +1,120 @@
+/* Promo Section Container */
+.promo-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+  
+}
+
+/* Left Text Section */
+.promo-left {
+  flex: 1;
+  padding: 1rem;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 500px;
+}
+
+/* Headline */
+.promo-left h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.3;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+  word-spacing: 2px;
+}
+
+/* Subtext */
+.promo-left p {
+  font-size: 1rem;
+  margin-bottom: 28px;
+  color: #555;
+}
+
+/* Button */
+.promo-left button {
+  padding: 0.8rem 1.6rem;
+  font-size: 0.95rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.promo-left button:hover {
+  background-color: #555;
+}
+
+/* Right Shoe Image Container */
+.promo-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f5f5dc; /* Light beige */
+  border-radius: 30px;
+  max-width: 50%;
+  min-width: 300px;
+  box-sizing: border-box;
+}
+
+.promo-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .promo-section {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .promo-left {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .promo-left h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .promo-left p {
+    font-size: 0.95rem;
+  }
+
+  .promo-left button {
+    font-size: 0.95rem;
+    margin-top: 1rem;
+  }
+
+  .promo-right {
+    max-width: 100%;
+    min-width: 100%;
+    margin-top: 2rem;
+  }
+
+  .promo-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+}
