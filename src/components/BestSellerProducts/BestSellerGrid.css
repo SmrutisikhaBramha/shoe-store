@@ -6,7 +6,8 @@
   margin-bottom: 100px;
   text-decoration: none;
   color: inherit;
-
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 
 .bestseller-product-card {
@@ -16,8 +17,7 @@
   background-color: #fff;
   text-align: center;
   transition: transform 0.3s ease;
-  max-width: 300px;
-  margin: auto;
+   width: 100%;
 }
 
 .bestseller-product-card:hover {

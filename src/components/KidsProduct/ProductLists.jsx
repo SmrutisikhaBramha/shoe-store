@@ -18,7 +18,7 @@ const ProductLists = ({ products }) => {
                 <span className="product-label">{product.label}</span>
               )}
             </div>
-
+ </Link>
             <div className="product-info">
               <h3 className="product-title">{product.name}</h3>
               <div className="product-price">
@@ -28,7 +28,7 @@ const ProductLists = ({ products }) => {
                 )}
               </div>
             </div>
-          </Link>
+          
         </div>
       ))}
     </div>

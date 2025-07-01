@@ -18,7 +18,7 @@ const BestSellerProductList = ({ products }) => {
                 <span className="bestseller-product-label">{product.label}</span>
               )}
             </div>
-
+</Link>
             <div className="bestseller-product-info">
               <h3 className="bestseller-product-title">{product.title}</h3>
               <div className="bestseller-product-price">
@@ -30,7 +30,7 @@ const BestSellerProductList = ({ products }) => {
                 )}
               </div>
             </div>
-          </Link>
+          
         </div>
       ))}
     </div>

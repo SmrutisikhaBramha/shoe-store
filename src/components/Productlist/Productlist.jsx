@@ -11,27 +11,26 @@ function ProductList() {
         <Link to="/best-sellers" className="view-all-link">VIEW ALL →</Link>
       </div>
 
-      <div className="product-grid">
-        {products.map(product => (
-          <Link
-            to={`/best-sellers/product/${product.id}`}
-            key={product.id}
-            className="product-card"
-          >
-            <span className="product-label">{product.label}</span>
-            <img src={product.image} alt={product.title} className="product-image" />
-            <div className="product-info">
-              <p className="product-name">{product.title}</p>
-              <p className="product-price">
-                {product.originalPrice && (
-                  <span className="original-price">{product.originalPrice}</span>
-                )}
-                {product.price}
-              </p>
-            </div>
-          </Link>
-        ))}
+<div className="product-grid">
+  {products.map(product => (
+    <div key={product.id} className="product-card">
+      <Link to={`/best-sellers/product/${product.id}`}>
+        {product.label && <span className="product-label">{product.label}</span>}
+        <img src={product.image} alt={product.name} className="product-image" />
+      </Link>
+      <div className="product-info">
+        <p className="product-name">{product.name}</p>
+        <p className="product-price">
+          {product.originalPrice && (
+            <span className="original-price">{product.originalPrice}</span>
+          )}
+          {product.price}
+        </p>
       </div>
+    </div>
+  ))}
+</div>
+
     </div>
   );
 }

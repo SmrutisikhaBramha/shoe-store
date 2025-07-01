@@ -74,7 +74,7 @@ const products = [
   },
    {
     id: 101,
-    title: 'Kid Sprint',
+    name: 'Kid Sprint',
     price: '$79.00',
     originalPrice: '$99.00',
     label: 'Kids',
@@ -82,14 +82,14 @@ const products = [
   },
   {
     id: 102,
-    title: 'Junior Bounce',
+    name: 'Junior Bounce',
     price: '$89.00',
     label: 'Kids',
     image: 'https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/15928988/2021/11/3/2b1fd8e3-a7af-4390-bd12-7aba419168011635936852194RedTapeUnisexKidsGreyMeshWalkingNon-MarkingShoes2.jpg',
   },
   {
     id: 103,
-    title: 'Tiny Trek',
+    name: 'Tiny Trek',
     price: '$69.00',
     label: 'Kids',
     originalPrice: '$89.00',
@@ -97,7 +97,7 @@ const products = [
   },
   {
     id: 104,
-    title: 'Mini Dash',
+    name: 'Mini Dash',
     price: '$74.00',
     label: 'Kids',
     image: 'https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/15929006/2021/11/3/3461b985-2418-40d2-98ed-87b29c8ce3791635936857953RedTapeUnisexKidsBlackMeshWalkingNon-MarkingShoes3.jpg',

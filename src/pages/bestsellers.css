@@ -56,3 +56,13 @@
 .product-count {
   font-size: 16px;
 }
+@media (max-width: 768px) {
+  .bestsellers-layout {
+    flex-direction: column;
+  }
+
+  .bestsellers-sidebar,
+  .bestsellers-main {
+    flex: 1 1 100%;
+  }
+}

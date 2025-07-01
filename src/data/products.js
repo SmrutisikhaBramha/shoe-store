@@ -1,7 +1,7 @@
 const products = [
   {
     id: 17,
-    title: 'Active JR',
+    name: 'Active JR',
     price: '$99.00',
     originalPrice: '$119.00',
     label: 'Best Seller',
@@ -10,7 +10,7 @@ const products = [
   },
   {
     id: 18,
-    title: 'Bio Original',
+    name: 'Bio Original',
     price: '$119.00',
     label: 'Best Seller',
     isBestSeller: true, 
@@ -18,7 +18,7 @@ const products = [
   },
   {
     id: 19,
-    title: 'Bio Perform',
+    name: 'Bio Perform',
     price: '$99.00',
     originalPrice: '$119.00',
     label: 'Best Seller',
@@ -27,7 +27,7 @@ const products = [
   },
   {
     id: 20,
-    title: 'Limited DL',
+    name: 'Limited DL',
     price: '$129.00',
     label: 'Best Seller',
     isBestSeller: true, 
