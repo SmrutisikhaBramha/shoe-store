@@ -1,0 +1,81 @@
+.bestseller-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.bestseller-product-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease;
+  max-width: 300px;
+  margin: auto;
+}
+
+.bestseller-product-card:hover {
+  transform: translateY(-5px);
+}
+
+.bestseller-product-image-wrapper {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.bestseller-product-image {
+  max-height: 290px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.bestseller-product-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #555;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.bestseller-product-info {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.bestseller-product-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.bestseller-product-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bestseller-current-price {
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.bestseller-original-price {
+  color: #aaa;
+  text-decoration: line-through;
+  font-size: 0.9rem;
+}

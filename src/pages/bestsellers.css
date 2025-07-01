@@ -1,0 +1,58 @@
+.bestsellers-container {
+  padding: 1rem;
+}
+
+.bestsellers-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.bestsellers-sidebar {
+  min-width: 200px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.bestsellers-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 30px 0 10px;
+  text-align: left;
+  
+}
+
+.bestsellers-description {
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: left;       
+  align-self: flex-start;
+}
+
+.bestsellers-products {
+  flex: 3;
+  min-width: 300px;
+}
+.bestsellers-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.bestsellers-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 16px;
+}
+.sort-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.product-count {
+  font-size: 16px;
+}

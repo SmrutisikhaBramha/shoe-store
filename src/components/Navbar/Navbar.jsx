@@ -41,8 +41,8 @@ const Navbar = () => {
 
                 <div className={`navbar-links ${isMobileMenuOpen ? "active" : ""}`}>
                     <Link to="/all-products">Shop All</Link>
-                    <Link to="/">Best Sellers</Link>
-                    <Link to="/">Active QX</Link>
+                    <Link to="/best-sellers">Best Sellers</Link>
+                    <Link to="/active-qx">Active QX</Link>
                     <Link to="/">Artisanal</Link>
                     <Link to="/kids">Kids</Link>
                     <Link to="/">About Us</Link>

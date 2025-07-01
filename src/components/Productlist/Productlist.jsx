@@ -8,7 +8,7 @@ function ProductList() {
      
       <div className="section-header">
         <h2 className="product-title">OUR BEST SELLERS</h2>
-        <a href="/products" className="view-all-link">VIEW ALL →</a>
+        <a href="/best-sellers" className="view-all-link">VIEW ALL →</a>
       </div>
 
       

@@ -6,7 +6,7 @@ const ProductCard = ({ product }) => {
   const {
     id,
     name,
-    title, // fallback support
+    title, 
     price,
     originalPrice,
     image,

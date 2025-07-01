@@ -22,7 +22,7 @@ const ProductLists = ({ products }) => {
             <div className="product-info">
               <h3 className="product-title">{product.name}</h3>
               <div className="product-price">
-                <span className="current-price">${product.price}</span>
+                <span className="current-price">{product.price}</span>
                 {product.originalPrice && (
                   <span className="original-price">{product.originalPrice}</span>
                 )}
