@@ -11,7 +11,7 @@ const BestSellerProductList = ({ products }) => {
             <div className="bestseller-product-image-wrapper">
               <img
                 src={product.image}
-                alt={product.title}
+                alt={product.name}
                 className="bestseller-product-image"
               />
               {product.label && (
@@ -20,7 +20,7 @@ const BestSellerProductList = ({ products }) => {
             </div>
 </Link>
             <div className="bestseller-product-info">
-              <h3 className="bestseller-product-title">{product.title}</h3>
+              <h3 className="bestseller-product-title">{product.name}</h3>
               <div className="bestseller-product-price">
                 <span className="bestseller-current-price">{product.price}</span>
                 {product.originalPrice && (
