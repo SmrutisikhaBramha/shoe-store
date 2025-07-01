@@ -23,8 +23,8 @@ const sortedProducts = [...kidsProducts].sort((a, b) => {
   if (sortOption === 'newest') return b.id - a.id;
   if (sortOption === 'low-to-high') return parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1));
   if (sortOption === 'high-to-low') return parseFloat(b.price.slice(1)) - parseFloat(a.price.slice(1));
-  if (sortOption === 'a-z') return a.title.localeCompare(b.title);
-  if (sortOption === 'z-a') return b.title.localeCompare(a.title);
+  if (sortOption === 'a-z') return a.name.localeCompare(b.name);
+  if (sortOption === 'z-a') return b.name.localeCompare(a.name);
   return 0;
 });
 
