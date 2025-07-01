@@ -1,20 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './productlist.css';
 import products from '../../data/products';
 
 function ProductList() {
   return (
     <div className="product-section">
-     
       <div className="section-header">
         <h2 className="product-title">OUR BEST SELLERS</h2>
-        <a href="/best-sellers" className="view-all-link">VIEW ALL →</a>
+        <Link to="/best-sellers" className="view-all-link">VIEW ALL →</Link>
       </div>
 
-      
       <div className="product-grid">
         {products.map(product => (
-          <div key={product.id} className="product-card">
+          <Link
+            to={`/best-sellers/product/${product.id}`}
+            key={product.id}
+            className="product-card"
+          >
             <span className="product-label">{product.label}</span>
             <img src={product.image} alt={product.title} className="product-image" />
             <div className="product-info">
@@ -26,7 +29,7 @@ function ProductList() {
                 {product.price}
               </p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
