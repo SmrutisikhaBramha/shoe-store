@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -8,12 +9,12 @@ const Footer = () => {
         <div className="footer-column">
           <h3>SHOP</h3>
           <ul>
-            <li>All products</li>
-            <li>Best Sellers</li>
-            <li>Active QX</li>
-            <li>Artisanal</li>
-            <li>Kids</li>
-            <li>About Us</li>
+            <li><Link to="/all-products">All Products</Link></li>
+            <li><Link to="/best-sellers">Best Sellers</Link></li>
+            <li><Link to="/active-qx">Active QX</Link></li>
+            <li><Link to="/artisanal">Artisanal</Link></li>
+            <li><Link to="/kids">Kids</Link></li>
+            <li><Link to="/about">About Us</Link></li>
           </ul>
         </div>
 
@@ -39,10 +40,10 @@ const Footer = () => {
         <div className="footer-column">
           <h3>SOCIAL</h3>
           <ul>
-            <li>Instagram</li>
-            <li>Facebook</li>
-            <li>X</li>
-            <li>Tik Tok</li>
+            <li><a href="https://www.instagram.com/wixstudio/#">Instagram</a></li>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://twitter.com">X</a></li>
+            <li><a href="https://www.tiktok.com">TikTok</a></li>
           </ul>
         </div>
 

@@ -34,7 +34,7 @@ const BestSellerProductDetail = () => {
       <div className="bestseller-top-navigation">
         <div className="bestseller-breadcrumb">
           <Link to="/">Home</Link> &gt;{" "}
-          <Link to="/best-sellers">Best Sellers</Link> &gt; {product.name || product.title}
+          <Link to="/best-sellers">Best Sellers</Link> &gt; {product.name }
         </div>
 
         <div className="bestseller-navigation-buttons">

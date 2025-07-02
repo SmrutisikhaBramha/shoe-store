@@ -1,0 +1,65 @@
+.activeqx-container {
+  padding: 1rem;
+}
+
+.activeqx-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.activeqx-sidebar {
+  min-width: 200px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.activeqx-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 30px 0 10px;
+  text-align: left;
+}
+
+.activeqx-description {
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: left;       
+  align-self: flex-start;
+}
+
+.activeqx-products {
+  flex: 3;
+  min-width: 300px;
+}
+
+.activeqx-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 16px;
+}
+
+.sort-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.product-count {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .activeqx-layout {
+    flex-direction: column;
+  }
+
+  .activeqx-sidebar,
+  .activeqx-main {
+    flex: 1 1 100%;
+  }
+}

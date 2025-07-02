@@ -38,17 +38,19 @@ const Navbar = () => {
 
             <div className="navbar-main">
                 <div className="navbar-brand">QUENX.</div>
-
-                <div className={`navbar-links ${isMobileMenuOpen ? "active" : ""}`}>
-                    <Link to="/all-products">Shop All</Link>
-                    <Link to="/best-sellers">Best Sellers</Link>
-                    <Link to="/active-qx">Active QX</Link>
-                    <Link to="/">Artisanal</Link>
-                    <Link to="/kids">Kids</Link>
-                    <Link to="/">About Us</Link>
-                    <Link to="/">Log In</Link>
-
+                {isMobileMenuOpen && (
+                    <div className="mobile-backdrop" onClick={toggleMobileMenu}></div>
+                )}
+                <div className={`navbar-mobile-menu ${isMobileMenuOpen ? "open" : ""}`}>
+                    <Link to="/all-products" onClick={toggleMobileMenu}>Shop All</Link>
+                    <Link to="/best-sellers" onClick={toggleMobileMenu}>Best Sellers</Link>
+                    <Link to="/active-qx" onClick={toggleMobileMenu}>Active QX</Link>
+                    <Link to="/artisanal" onClick={toggleMobileMenu}>Artisanal</Link>
+                    <Link to="/kids" onClick={toggleMobileMenu}>Kids</Link>
+                    <Link to="/about-us" onClick={toggleMobileMenu}>About Us</Link>
+                    
                 </div>
+
 
                 <div className="navbar-icons">
                     <div className="navbar-search">
