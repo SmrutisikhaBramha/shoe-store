@@ -37,7 +37,7 @@
   cursor: not-allowed;
 }
 
-/* Main content layout */
+
 .artisanal-detail-content {
   display: flex;
   gap: 40px;
@@ -139,7 +139,7 @@
   color: #000;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .artisanal-top-navigation {
     flex-direction: column;

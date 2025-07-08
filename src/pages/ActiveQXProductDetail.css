@@ -2,7 +2,6 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .activeqx-top-navigation {
@@ -37,7 +36,7 @@
   cursor: not-allowed;
 }
 
-/* Main content layout */
+
 .activeqx-detail-content {
   display: flex;
   gap: 40px;
@@ -139,7 +138,6 @@
   color: #000;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .activeqx-top-navigation {
     flex-direction: column;

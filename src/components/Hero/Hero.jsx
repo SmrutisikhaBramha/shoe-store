@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="product-card">
           <div className="sale-tag">Sale</div>
           <img src={cardShoe} alt="Bio Runner" className="product-image" />
-          <div className="product-info">
+          <div className="products-info">
             <h4>Bio Runner</h4>
             <p><span className="old-price">$119.00</span> <span className="new-price">$99.00</span></p>
              <button className="add-to-cart" onClick={handleAddToCart}>

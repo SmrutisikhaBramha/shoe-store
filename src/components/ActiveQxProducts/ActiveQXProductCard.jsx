@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './ActiveQXGrid.css'; // Create or reuse this CSS
+import './ActiveQXGrid.css'; 
 
 const ActiveQXProductCard = ({ product }) => {
   const {

@@ -60,7 +60,7 @@
   z-index: 0;
 }
 
-.product-card {
+.products-card {
   position: absolute;
   left: 0.35rem;
   top: 1.5rem;
@@ -190,7 +190,7 @@
     display: none;
   }
 
-  .product-card {
+  .productcard {
     width: 90%;
     max-width: 340px;
     background: #fff;
@@ -222,7 +222,7 @@
     margin-bottom: 1rem;
   }
 
-  .product-info h4 {
+  .products-info h4 {
     font-size: 1rem;
     margin: 0 0 0.5rem;
     font-weight: 700;

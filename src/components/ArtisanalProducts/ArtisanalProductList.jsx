@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './ArtisanalGrid.css'; // create or reuse a CSS file with artisanal styles
+import './ArtisanalGrid.css'; 
 
 const ArtisanalProductList = ({ products }) => {
   return (

@@ -7,20 +7,20 @@ function ProductList() {
   return (
     <div className="product-section">
       <div className="section-header">
-        <h2 className="product-title">OUR BEST SELLERS</h2>
+        <h2 className="product-name">OUR BEST SELLERS</h2>
         <Link to="/best-sellers" className="view-all-link">VIEW ALL →</Link>
       </div>
 
-<div className="product-grid">
+<div className="product-grids">
   {products.map(product => (
     <div key={product.id} className="product-card">
       <Link to={`/best-sellers/product/${product.id}`}>
-        {product.label && <span className="product-label">{product.label}</span>}
+        {product.label && <span className="product-label">{product.label}</span>} 
         <img src={product.image} alt={product.name} className="product-image" />
       </Link>
       <div className="product-info">
-        <p className="product-name">{product.name}</p>
-        <p className="product-price">
+        <h2 className="products-names">{product.name}</h2>
+        <p className="products-price">
           {product.originalPrice && (
             <span className="original-price">{product.originalPrice}</span>
           )}

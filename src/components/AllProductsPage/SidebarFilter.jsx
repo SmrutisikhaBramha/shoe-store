@@ -36,7 +36,7 @@ const SidebarFilter = ({ priceRange, setPriceRange }) => {
 
       <div className={`sidebar-filter ${isMobileOpen ? 'open' : ''}`}>
         <h3 className="section-heading">Browse by</h3>
-        <hr />
+        <hr/>
         <ul className="category-list">
           {categories.map((category, index) => (
             <li

@@ -13,8 +13,6 @@ const ProductDetail = () => {
   const productId = parseInt(id);
   const product = products.find((item) => item.id === productId);
   const navigate = useNavigate();
-
-  // 🛠 Correct navigation using index
   const currentIndex = products.findIndex((p) => p.id === productId);
 
   const goToPrevious = () => {

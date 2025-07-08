@@ -19,7 +19,7 @@ import ActiveQXPage from './pages/ActiveQXPage';
 import ActiveQXProductDetail from './pages/ActiveQXProductDetail';
 import ArtisanalPage from './pages/ArtisanalPage';
 import ArtisanalProductDetail from './pages/ArtisanalProductDetail';
-
+import AboutSection from './pages/AboutSection';
 
 import './App.css';
 
@@ -55,7 +55,7 @@ function App() {
         <Route path="/active-qx/product/:id" element={<ActiveQXProductDetail />} />
         <Route path="/artisanal" element={<ArtisanalPage />} />
         <Route path="/artisanal/product/:id" element={<ArtisanalProductDetail />} />
-        
+        <Route path="/about" element={<AboutSection />} />
       </Routes>
       <Footer /> 
     </Router>

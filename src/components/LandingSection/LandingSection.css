@@ -1,6 +1,6 @@
 .landing-section {
   position: relative;
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -30,12 +30,14 @@
 }
 
 .landing-heading h1 {
+  margin-top: 100px;
   font-size: 4rem;
   font-weight: bold;
   color: black;
 }
 
 .landing-paragraph {
+  
   max-width: 40%;
   z-index: 1; 
 }

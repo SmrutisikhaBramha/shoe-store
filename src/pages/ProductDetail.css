@@ -38,7 +38,7 @@
   cursor: not-allowed;
 }
 
-/* Main content layout */
+
 .product-detail-content {
   display: flex;
   gap: 40px;
@@ -141,7 +141,7 @@
   color: #000;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .top-navigation {
     flex-direction: column;
@@ -165,7 +165,7 @@
   }
 
   .navigation-buttons button {
-    font-size: 0; /* Hide text */
+    font-size: 0; 
     width: 36px;
     height: 36px;
     padding: 0;

@@ -24,7 +24,7 @@ const ProductCard = ({ product }) => {
           <h3 className="product-title">{name || title}</h3>
           <div className="product-price">
             <span className="current-price">
-              {typeof price === 'string' ? price : `$${price}`}
+              {typeof price === 'string' && price }
             </span>
             {originalPrice && (
               <span className="original-price">{originalPrice}</span>

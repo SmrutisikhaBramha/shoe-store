@@ -4,7 +4,7 @@ import SidebarFilter from '../components/AllProductsPage/SidebarFilter';
 import SortDropdown from '../components/AllProductsPage/SortDropdown';
 import ArtisanalProductList from '../components/ArtisanalProducts/ArtisanalProductList';
 import ArtisanalProducts from '../data/Artisanal';
-import './artisanal.css'; // create this file based on activeqx.css
+import './artisanal.css'; 
 
 const ArtisanalPage = () => {
     const [sortOption, setSortOption] = useState('');

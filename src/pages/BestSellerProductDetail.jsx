@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import products from '../data/products'; // Your Best Seller product list
 import { MdOutlineWhatsapp, MdFacebook } from 'react-icons/md';
 import { FaPinterest, FaXTwitter } from 'react-icons/fa6';
 import { IoMdHeartEmpty } from 'react-icons/io';
+import products from '../data/products'; 
 import './BestSellerProductDetail.css';
 
 const BestSellerProductDetail = () => {

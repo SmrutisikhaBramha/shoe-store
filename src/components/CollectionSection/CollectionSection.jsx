@@ -2,25 +2,23 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './CollectionSection.css';
 
-import activeQx from '../../assets/images/active-qx.jpg';
-import kids from '../../assets/images/kids.jpg';
 import artisanal from '../../assets/images/artisanal.jpg';
 
 const collections = [
   {
     title: 'ACTIVE QX',
-    image: activeQx,
+    image: "https://i.pinimg.com/originals/15/66/27/15662754a4d5f449a245ba7863bbd22e.jpg",
     path: '/active-qx',
   },
   {
     title: 'KIDS',
-    image: kids,
+    image: "https://i.pinimg.com/originals/9d/40/a1/9d40a1920808e0a44b7810731970b245.jpg",
     path: '/kids',
   },
   {
     title: 'ARTISANAL',
     image: artisanal,
-    path: '/artisanal', // ✅ Corrected here
+    path: '/artisanal', 
   },
 ];
 

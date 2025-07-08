@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import activeQXProducts from '../data/ActiveQX'; // Import your Active QX product data
+import activeQXProducts from '../data/ActiveQX';
 import { MdOutlineWhatsapp, MdFacebook } from 'react-icons/md';
 import { FaPinterest, FaXTwitter } from 'react-icons/fa6';
 import { IoMdHeartEmpty } from 'react-icons/io';
-import './ActiveQXProductDetail.css'; // Create this CSS by copying from BestSellerProductDetail.css
+import './ActiveQXProductDetail.css'; 
 
 const ActiveQXProductDetail = () => {
   const { id } = useParams();

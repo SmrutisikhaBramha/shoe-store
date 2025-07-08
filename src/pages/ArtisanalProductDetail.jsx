@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import artisanalProducts from '../data/Artisanal'; // 👈 Make sure this points to your Artisanal data
+import artisanalProducts from '../data/Artisanal'; 
 import { MdOutlineWhatsapp, MdFacebook } from 'react-icons/md';
 import { FaPinterest, FaXTwitter } from 'react-icons/fa6';
 import { IoMdHeartEmpty } from 'react-icons/io';
-import './ArtisanalProductDetail.css'; // 👈 Duplicate and modify from ActiveQXProductDetail.css
+import './ArtisanalProductDetail.css'; // 
 
 const ArtisanalProductDetail = () => {
   const { id } = useParams();

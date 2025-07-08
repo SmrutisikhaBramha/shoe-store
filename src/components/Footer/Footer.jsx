@@ -53,7 +53,7 @@ const Footer = () => {
           <input type="email" placeholder="Email Address *" />
           <div className="checkbox-container">
             <input type="checkbox" id="subscribe" />
-            <label htmlFor="subscribe">Yes, subscribe me to your newsletter. *</label>
+            <h5>Yes, subscribe me to your newsletter. </h5>
           </div>
           <button>SIGN UP</button>
         </div>
@@ -61,7 +61,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <h2>QUENX.</h2>
-        <p>&copy; 2035 by Quenx. Built on <a href="#">Wix Studio</a></p>
+        <p>&copy; 2025 by Quenx. Built on <a href="#">Wix Studio</a></p>
       </div>
     </footer>
   );

@@ -21,7 +21,7 @@ const products = [
     name: 'Bio Perform',
     price: '$99.00',
     originalPrice: '$119.00',
-    label: 'Best Seller',
+    label: "Best Seller",
     isBestSeller: true, 
     image: '/assets/shoes/bio-perform.jpg',
   },

@@ -15,8 +15,6 @@ const AllProductsPage = () => {
   const [sortOption, setSortOption] = useState('');
   const [Count, setCount] = useState(8);
   
-
- 
   const filteredProducts = productsData.filter(
     (product) => product.price >= priceRange[0] && product.price <= priceRange[1]
   );
