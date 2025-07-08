@@ -3,11 +3,12 @@ import "./Navbar.css";
 import { FaUserCircle, FaHeart, FaShoppingBag } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { CiSearch } from "react-icons/ci";
+import { RxCross2 } from "react-icons/rx";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState(""); 
+  const [searchQuery, setSearchQuery] = useState("");
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -44,6 +45,11 @@ const Navbar = () => {
         <div className="navbar-brand">QUENX.</div>
 
         <div className={`navbar-mobile-menu ${isMobileMenuOpen ? "open" : ""}`}>
+
+          <div className="mobile-menu-header">
+            <RxCross2 size={24} className="close-icon" onClick={toggleMobileMenu} />
+          </div>
+
           <Link to="/all-products" onClick={toggleMobileMenu}>Shop All</Link>
           <Link to="/best-sellers" onClick={toggleMobileMenu}>Best Sellers</Link>
           <Link to="/active-qx" onClick={toggleMobileMenu}>Active QX</Link>
