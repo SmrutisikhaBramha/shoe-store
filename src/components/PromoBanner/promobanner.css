@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 60px 80px;
+  padding: 60px 20px;
   background-color: #ffffff;
   max-width: 1500px;
   margin: 0 auto;
@@ -39,7 +39,7 @@
 
 .promo-left p {
   font-size: 1rem;
-  margin-bottom: 28px;
+  margin-bottom: 42px;
   color: #555;
 }
 

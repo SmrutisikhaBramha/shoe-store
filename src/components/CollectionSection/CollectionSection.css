@@ -1,5 +1,5 @@
 .collection-container {
-  padding: 50px 80px;
+  padding: 50px 40px;
   background-color: #ffffff;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .collection-header h2 {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -26,7 +26,7 @@
 
 .collection-grid {
   display: flex;
-  gap: 100px;
+  gap: 80px;
   justify-content: center;
   flex-wrap: wrap;
 
