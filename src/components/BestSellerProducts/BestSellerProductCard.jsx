@@ -17,7 +17,7 @@ const BestSellerProductCard = ({ product }) => {
      
       <Link to={`/best-sellers/product/${id}`}>
         <div className="bestseller-product-image-wrapper">
-          <img src={image} alt={name} className="bestseller-product-image" />
+          <img src={image} alt={name} className="bestsellers-product-image" />
           {label && <span className="bestseller-product-label">{label}</span>}
         </div>
         <div className="bestseller-product-info">

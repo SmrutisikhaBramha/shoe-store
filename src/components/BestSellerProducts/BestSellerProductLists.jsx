@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './BestSellerGrid.css'; 
 const BestSellerProductList = ({ products }) => {
   return (
-    <div className="bestseller-products-grid">
+    <div className="bestseller-products-grids">
       {products.map((product) => (
         <div key={product.id} className="bestseller-product-card">
           

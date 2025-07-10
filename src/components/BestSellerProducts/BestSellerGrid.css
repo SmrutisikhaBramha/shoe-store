@@ -1,4 +1,4 @@
-.bestseller-products-grid {
+.bestseller-products-grids {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 20px;
@@ -11,13 +11,12 @@
 }
 
 .bestseller-product-card {
-  border: 1px solid #eee;
+  border: 1px solid #ffffff;
   border-radius: 10px;
-  padding: 1rem;
-  background-color: #fff;
+  background-color: #ffffff;
   text-align: center;
   transition: transform 0.3s ease;
-   width: 100%;
+  width: 100%;
 }
 
 .bestseller-product-card:hover {
@@ -25,18 +24,23 @@
 }
 
 .bestseller-product-image-wrapper {
-  height: 300px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
+  background-color: #ffffff;
 }
 
 .bestseller-product-image {
-  max-height: 290px;
-  object-fit: contain;
-  margin-bottom: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  max-height: 490px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .bestseller-product-label {
@@ -51,6 +55,7 @@
 }
 
 .bestseller-product-info {
+  margin-top: 10px;
   text-align: left;
   padding: 0 10px;
 }

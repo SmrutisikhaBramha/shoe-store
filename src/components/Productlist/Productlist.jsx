@@ -13,9 +13,9 @@ function ProductList() {
 
 <div className="product-grids">
   {products.map(product => (
-    <div key={product.id} className="product-card">
+    <div key={product.id} className="products-cards">
       <Link to={`/best-sellers/product/${product.id}`}>
-        {product.label && <span className="product-label">{product.label}</span>} 
+        {product.label && <span className="products-label">{product.label}</span>} 
         <img src={product.image} alt={product.name} className="products-image" />
       </Link>
       <div className="products-info">
@@ -30,8 +30,7 @@ function ProductList() {
     </div>
   ))}
 </div>
-
-    </div>
+</div>
   );
 }
 
