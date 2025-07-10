@@ -23,10 +23,10 @@ const Hero = () => {
       </div>
       <div className="hero-right">
          <img src={heroShoe} alt="Hero Shoe" className="hero-bg-shoe" />
-        <div className="product-card">
+        <div className="productcard">
           <div className="sale-tag">Sale</div>
-          <img src={cardShoe} alt="Bio Runner" className="product-image" />
-          <div className="products-info">
+          <img src={cardShoe} alt="Bio Runner" className="productimage" />
+          <div className="productsinfo">
             <h4>Bio Runner</h4>
             <p><span className="old-price">$119.00</span> <span className="new-price">$99.00</span></p>
              <button className="add-to-cart" onClick={handleAddToCart}>

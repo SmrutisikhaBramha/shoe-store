@@ -60,17 +60,16 @@
   z-index: 0;
 }
 
-.products-card {
+.productcard {
   position: absolute;
-  left: 0.35rem;
-  top: 1.5rem;
-  bottom: 3rem;
-  right: 3rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: #fff;
   border-radius: 20px;
   padding: 1.2rem;
   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
-  width: 250px;
+  width: 350px;
   z-index: 2;
   text-align: center;
 }
@@ -87,17 +86,17 @@
   font-weight: 600;
 }
 
-.product-image {
+.productimage {
   width: 100%;
   border-radius: 10px;
   margin-top: 1rem;
 }
 
-.product-info {
+.productinfo {
   margin-top: 1rem;
 }
 
-.product-info h4 {
+.productinfo h4 {
   margin: 0.5rem 0 0.25rem;
   font-weight: bold;
 }
@@ -185,21 +184,17 @@
     order: 2;
   }
 
-  .hero-bg-shoe {
-    display: none;
-  }
-
   .productcard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 90%;
-    max-width: 340px;
-    background: #fff;
-    border-radius: 16px;
-    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    max-width: 240px;
+    border-radius: 20px;
     padding: 1.5rem 1rem;
-    margin-top: 0;
-    position: relative;
     z-index: 2;
-    text-align: left;
+    text-align: center;
   }
 
   .sale-tag {
@@ -215,13 +210,13 @@
     z-index: 3;
   }
 
-  .product-image {
+  .productimage {
     width: 100%;
     border-radius: 12px;
     margin-bottom: 1rem;
   }
 
-  .products-info h4 {
+  .productsinfo h4 {
     font-size: 1rem;
     margin: 0 0 0.5rem;
     font-weight: 700;
