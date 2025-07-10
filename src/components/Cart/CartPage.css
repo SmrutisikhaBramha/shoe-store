@@ -116,9 +116,9 @@
 }
 .item-controls {
   display: flex;
-  align-items: center;  /* Aligns all children to vertical middle */
+  align-items: center; 
   justify-content: flex-end;
-  gap: 20px; /* spacing between quantity, price, delete */
+  gap: 20px; 
   flex: 1;
   padding-top: 5px;
 }
@@ -182,7 +182,6 @@
   text-align: center;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
   .cart-container {
     flex-direction: column;

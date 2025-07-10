@@ -34,19 +34,19 @@ const CartPage = () => {
               <span className="new-price">${unitPrice.toFixed(2)}</span>
             </p>
           </div>
-<div className="item-controls">
-          <div className="quantity">
-            <button onClick={decreaseQty}>-</button>
-            <span>{quantity}</span>
-            <button onClick={increaseQty}>+</button>
+          <div className="item-controls">
+            <div className="quantity">
+              <button onClick={decreaseQty}>-</button>
+              <span>{quantity}</span>
+              <button onClick={increaseQty}>+</button>
+            </div>
+            <div className="price">${totalPrice.toFixed(2)}</div>
+            <div className="delete"> <RiDeleteBin5Line size={20} /></div>
           </div>
-          <div className="price">${totalPrice.toFixed(2)}</div>
-          <div className="delete"> <RiDeleteBin5Line size={20} /></div>
         </div>
-</div>
         <div className="extras">
-          <p><IoPricetagOutline  /><a href="/">Enter a promo code</a></p>
-          <p><PiNoteBlankDuotone  />  <a href="/">Add a note</a></p>
+          <p><IoPricetagOutline /><a href="/">Enter a promo code</a></p>
+          <p><PiNoteBlankDuotone />  <a href="/">Add a note</a></p>
         </div>
       </div>
 
@@ -66,7 +66,7 @@ const CartPage = () => {
           </div>
           <hr />
           <button className="checkout-btn">Checkout</button>
-          <p className="secure">🔒 Secure Checkout</p>
+          <p className="secure">Secure Checkout</p>
         </div>
       </div>
     </div>

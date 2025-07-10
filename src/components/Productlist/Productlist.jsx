@@ -16,9 +16,9 @@ function ProductList() {
     <div key={product.id} className="product-card">
       <Link to={`/best-sellers/product/${product.id}`}>
         {product.label && <span className="product-label">{product.label}</span>} 
-        <img src={product.image} alt={product.name} className="product-image" />
+        <img src={product.image} alt={product.name} className="products-image" />
       </Link>
-      <div className="product-info">
+      <div className="products-info">
         <h2 className="products-names">{product.name}</h2>
         <p className="products-price">
           {product.originalPrice && (

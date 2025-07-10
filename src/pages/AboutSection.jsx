@@ -56,7 +56,6 @@ const AboutPage = () => {
         </p>
       </section>
 
-      {/* === Values Grid Section === */}
       <section className="values-grid">
         {values.map((item, index) => (
           <div key={index} className="value-card">
@@ -67,7 +66,6 @@ const AboutPage = () => {
         ))}
       </section>
 
-      {/* === FAQ Section === */}
       <section className="faq-section">
         <div className="faq-header">
           <h2>Frequently asked questions</h2>

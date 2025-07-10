@@ -17,8 +17,6 @@ const kidsProducts = allProducts
     return price >= priceRange[0] && price <= priceRange[1];
   });
 
-
-
 const sortedProducts = [...kidsProducts].sort((a, b) => {
   if (sortOption === 'newest') return b.id - a.id;
   if (sortOption === 'low-to-high') return parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1));

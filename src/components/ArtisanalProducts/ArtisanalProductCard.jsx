@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './ArtisanalGrid.css'; // Use your artisanal CSS
+import './ArtisanalGrid.css'; 
 
 const ArtisanalProductCard = ({ product }) => {
   const {
